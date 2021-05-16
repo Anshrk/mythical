@@ -8,6 +8,8 @@ load_dotenv()
 
 bot = commands.Bot(command_prefix='myth ')
 
+bot.load_extension('cogs.admin')
+
 
 @bot.event
 async def on_ready():
