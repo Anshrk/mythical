@@ -8,7 +8,7 @@ load_dotenv()
 
 bot = commands.Bot(command_prefix='myth ')
 
-bot.load_extension('cogs.admin')
+bot.load_extension('cogs.economy')
 
 
 @bot.event

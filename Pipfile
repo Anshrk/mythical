@@ -6,7 +6,7 @@ name = "pypi"
 [packages]
 "discord.py" = "*"
 python-dotenv = "*"
-pymongo = "*"
+pymongo = {extras = ["srv"], version = "*"}
 
 [dev-packages]
 autopep8 = "*"
